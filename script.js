@@ -4,7 +4,7 @@ function setSize(){
 	const width=window.innerWidth;
 	const height=window.innerHeight;
 
-	size.innerHTML='Width: ' + width +' and '+ ' Height: ' + height;
+	size.innerHTML='Width:' + ' ' + width +' and '+ ' Height:' + ' ' + height;
 }
 
 window.addEventListener('resize', setSize);
